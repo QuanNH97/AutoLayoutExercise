@@ -25,7 +25,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //        self.window?.makeKeyAndVisible()
         
 //        Without navigation controller
-        let initialViewController = storyboard.instantiateViewController(withIdentifier: "root")
+        let initialViewController = storyboard.instantiateViewController(withIdentifier: "tab")
         self.window?.rootViewController = initialViewController
         self.window?.makeKeyAndVisible()
         return true
